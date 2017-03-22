@@ -8,7 +8,7 @@ __function__ SIMULATED-ANNEALING(_problem_,_schedule_) __returns__ a solution st
 &emsp;_current_ &larr; MAKE\-NODE(_problem_.INITIAL\-STATE)  
 &emsp;__for__ _t_ = 1 __to__ &infin;  __do__  
 &emsp;&emsp;&emsp;_T_ &larr; _schedule(t)_  
-&emsp;&emsp;&emsp;__if__ _T_ = 0 __then return__ _current_  
+&emsp;&emsp;&emsp;__if__ _T_ = 0 __then return__ _current.state_  
 &emsp;&emsp;&emsp;_next_ &larr; a randomly selected successor of _current_  
 &emsp;&emsp;&emsp;_&Delta;E_ &larr; _next_.VALUE - _current_.VALUE  
 &emsp;&emsp;&emsp;__if__ _&Delta;E_ > 0 __then__ _current_ &larr; _next_  
