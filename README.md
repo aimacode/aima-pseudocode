@@ -53,11 +53,11 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 11.10 | | [DOUBLES-TENNIS-PROBLEM](md/Doubles-Tennis-Problem.md) |
 | 13.1 |  | [DT-AGENT](md/DT-Agent.md) |
 | 14.9 |  | [ENUMERATION-ASK](md/Enumeration-Ask.md) |
-| 14.10 |  | [ELIMINATION-ASK](md/Elimination-Ask.md) |
-| 14.12 |  | [PRIOR-SAMPLE](md/Prior-Sample.md) |
-| 14.13 |  | [REJECTION-SAMPLING](md/Rejection-Sampling.md) |
-| 14.14 |  | [LIKELIHOOD-WEIGHTING](md/Likelihood-Weighting.md) |
-| 14.15 |  | [GIBBS-ASK](md/Gibbs-Ask.md) |
+| 14.11 |  | [ELIMINATION-ASK](md/Elimination-Ask.md) |
+| 14.13 |  | [PRIOR-SAMPLE](md/Prior-Sample.md) |
+| 14.14 |  | [REJECTION-SAMPLING](md/Rejection-Sampling.md) |
+| 14.15 |  | [LIKELIHOOD-WEIGHTING](md/Likelihood-Weighting.md) |
+| 14.16 |  | [GIBBS-ASK](md/Gibbs-Ask.md) |
 | 15.4 |  | [FORWARD-BACKWARD](md/Forward-Backward.md) |
 | 15.6 |  | [FIXED-LAG-SMOOTHING](md/Fixed-Lag-Smoothing.md) |
 | 15.17 |  | [PARTICLE-FILTERING](md/Particle-Filtering.md) |
