@@ -65,11 +65,11 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 17.4 |  | [VALUE-ITERATION](md/Value-Iteration.md) |
 | 17.7 |  | [POLICY-ITERATION](md/Policy-Iteration.md) |
 | 17.9 |  | [POMDP-VALUE-ITERATION](md/POMDP-Value-Iteration.md) |
-| 18.4 |  | [DECISION-TREE-LEARNING](md/Decision-Tree-Learning.md) |
-| 18.7 |  | [CROSS-VALIDATION-WRAPPER](md/Cross-Validation-Wrapper.md) |
-| 18.10 |  | [DECISION-LIST-LEARNING](md/Decision-List-Learning.md) |
-| 18.23 |  | [BACK-PROP-LEARNING](md/Back-Prop-Learning.md) |
-| 18.33 |  | [ADABOOST](md/AdaBoost.md) |
+| 18.5 |  | [DECISION-TREE-LEARNING](md/Decision-Tree-Learning.md) |
+| 18.8 |  | [CROSS-VALIDATION-WRAPPER](md/Cross-Validation-Wrapper.md) |
+| 18.11 |  | [DECISION-LIST-LEARNING](md/Decision-List-Learning.md) |
+| 18.24 |  | [BACK-PROP-LEARNING](md/Back-Prop-Learning.md) |
+| 18.34 |  | [ADABOOST](md/AdaBoost.md) |
 | 19.2 |  | [CURRENT-BEST-LEARNING](md/Current-Best-Learning.md) |
 | 19.3 |  | [VERSION-SPACE-LEARNING](md/Version-Space-Learning.md) |
 | 19.8 |  | [MINIMAL-CONSISTENT-DET](md/Minimal-Consistent-Det.md) |
