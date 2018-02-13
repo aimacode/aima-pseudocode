@@ -30,13 +30,13 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 6.8 |  | [MIN-CONFLICTS](md/Min-Conflicts.md) |
 | 6.11 |  | [TREE-CSP-SOLVER](md/Tree-CSP-Solver.md) |
 | 7.1|  | [KB-AGENT](md/KB-Agent.md) |
-| 7.8 |  | [TT-ENTAILS](md/TT-Entails.md) |
-| 7.9 |  | [PL-RESOLUTION](md/PL-Resolution.md) |
-| 7.12 |  | [PL-FC-ENTAILS?](md/PL-FC-Entails.md) |
-| 7.14 |  | [DPLL-SATISFIABLE?](md/DPLL-Satisfiable.md) |
-| 7.15 |  | [WALKSAT](md/WalkSAT.md) |
-| 7.17 |  | [HYBRID-WUMPUS-AGENT](md/Hybrid-Wumpus-Agent.md) |
-| 7.19 |  | [SATPLAN](md/SATPlan.md) |
+| 7.10 |  | [TT-ENTAILS](md/TT-Entails.md) |
+| 7.12 |  | [PL-RESOLUTION](md/PL-Resolution.md) |
+| 7.15 |  | [PL-FC-ENTAILS?](md/PL-FC-Entails.md) |
+| 7.17 |  | [DPLL-SATISFIABLE?](md/DPLL-Satisfiable.md) |
+| 7.18 |  | [WALKSAT](md/WalkSAT.md) |
+| 7.20 |  | [HYBRID-WUMPUS-AGENT](md/Hybrid-Wumpus-Agent.md) |
+| 7.22 |  | [SATPLAN](md/SATPlan.md) |
 | 9.1 |  | [UNIFY](md/Unify.md) |
 | 9.3 |  | [FOL-FC-ASK](md/FOL-FC-Ask.md) |
 | 9.6 |  | [FOL-BC-ASK](md/FOL-BC-Ask.md) |
