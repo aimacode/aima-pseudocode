@@ -81,4 +81,4 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 23.5 |  | [CYK-PARSE](md/CYK-Parse.md) |
 | 23.6 | | [SENTENCE-TREE](md/Sentence-Tree.md) |
 | 25.9 |  | [MONTE-CARLO-LOCALIZATION](md/Monte-Carlo-Localization.md) |
-| 29.1 |  | [POWERS-OF-2](md/Powers-Of-2.md) |
+| B.1 |  | [POWERS-OF-2](md/Powers-Of-2.md) |
