@@ -28,7 +28,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 6.3 |  | [AC-3](md/AC-3.md) |
 | 6.5 |  | [BACKTRACKING-SEARCH](md/Backtracking-Search.md) |
 | 6.8 |  | [MIN-CONFLICTS](md/Min-Conflicts.md) |
-| 5.11 |  | [TREE-CSP-SOLVER](md/Tree-CSP-Solver.md) |
+| 6.11 |  | [TREE-CSP-SOLVER](md/Tree-CSP-Solver.md) |
 | 7.1|  | [KB-AGENT](md/KB-Agent.md) |
 | 7.8 |  | [TT-ENTAILS](md/TT-Entails.md) |
 | 7.9 |  | [PL-RESOLUTION](md/PL-Resolution.md) |
