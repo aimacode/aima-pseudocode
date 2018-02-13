@@ -78,7 +78,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 21.4 |  | [PASSIVE-TD-AGENT](md/Passive-TD-Agent.md) |
 | 21.8 |  | [Q-LEARNING-AGENT](md/Q-Learning-Agent.md) |
 | 22.1 |  | [HITS](md/Hits.md) |
-| 23.4 |  | [CYK-PARSE](md/CYK-Parse.md) |
-| 23.5 | | [SENTENCE-TREE](md/Sentence-Tree.md) |
+| 23.5 |  | [CYK-PARSE](md/CYK-Parse.md) |
+| 23.6 | | [SENTENCE-TREE](md/Sentence-Tree.md) |
 | 25.9 |  | [MONTE-CARLO-LOCALIZATION](md/Monte-Carlo-Localization.md) |
 | 29.1 |  | [POWERS-OF-2](md/Powers-Of-2.md) |
