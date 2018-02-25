@@ -41,7 +41,6 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 9.3 |  | [FOL-FC-ASK](md/FOL-FC-Ask.md) |
 | 9.6 |  | [FOL-BC-ASK](md/FOL-BC-Ask.md) |
 | 9.8 |  | [APPEND](md/Append.md) |
-
 | 10.1 | | [AIR-CARGO-TRANSPORT-PROBLEM](md/Air-Cargo-Transport-Problem.md) |
 | 10.2 | | [SPARE-TIRE-PROBLEM](md/Spare-Tire-Problem.md) |
 | 10.3 | | [BLOCKS-WORLD](md/Blocks-World.md) |
