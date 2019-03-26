@@ -2,26 +2,22 @@
 
 ## AIMA4e  
 
-__function__ DEPTH-LIMITED-SEARCH(_problem_, _l_) __returns__ a solution, or failure, or cutoff  
-&emsp;_frontier_ &larr; a FIFO queue initially containing one path, for the _problem_'s initial state  
-&emsp;_solution_ &larr; failure  
+__function__ DEPTH-LIMITED-SEARCH(_problem_, _limit_) __returns__ a node or failure or cutoff  
+&emsp;_frontier_ &larr; a LIFO queue (stack) with a node for the initial state    
+&emsp;_result_ &larr; failure  
 &emsp;__while__  _frontier_ is not empty __do__  
-&emsp;&emsp;&emsp;_parent_ &larr; pop(_frontier_)  
-&emsp;&emsp;&emsp;__if__ depth(_parent_) > l __then__  
-&emsp;&emsp;&emsp;&emsp;&emsp;_solution_ &larr; cutoff  
+&emsp;&emsp;&emsp;_node_ &larr; POP(_frontier_)  
+&emsp;&emsp;&emsp;__if__ DEPTH(_node_) > _limit_ __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;_result_ &larr; cutoff  
 &emsp;&emsp;&emsp;__else__  
-&emsp;&emsp;&emsp;&emsp;&emsp;__for__ _child_ __in__ successors(_parent_) __do__  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _child_ is a goal __then__  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__return__ _child_  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _child_ to __frontier__  
-&emsp;__return__  _solution_  
+&emsp;&emsp;&emsp;&emsp;&emsp;__for__ _child_ __in__ EXPAND(_problem_, _node_) __do__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _child_ is a goal __then__ __return__ _child_  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ __not__ ISSHORTCYCLE(_node_) __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _child_ to the _frontier_  
+&emsp;__return__  _result_  
 
 ---
-__Figure 3.14__ An implementation of depth-limited tree search. The algorithm has two dif-
-ferent ways to signal failure to find a solution: it returns failure when it has exhausted all
-paths and proved there is no solution at any depth, and returns cutoff to mean there might be
-a solution at a deeper depth than l. Note that this algorithm does not keep track of reached
-states, and thus might visit the same state multiple times on different paths.
+__Figure 3.3__ Iterative deepening and depth-limited tree search. Iterative deepening repeatedly applies depth-limited search with increasing limits. It terminates when a solution is found or if the depth-limited search returns _failure_, meaning that no solution exists. The depth-limited search algorithm returns three different types of values: either a solution, or _failure_ when it has exhausted all nodes and proved there is no solution at any depth, or _cutoff_ to mean there might be a solution at a deeper depth than _limit_. Note that this is a tree search algorithm that does not keep track of _reached_ states, and thus uses much less memory that best-first search, but it runs the risk of visiting the same state multiple times on different paths, and failing to be systematic. To partially counter that, the ISSHORTCYCLE(CHILD) test looks at the parent and several generations of grandparents to see if a cycle is detected, and if so refuses to put the offending child on the frontier.
 
 ## AIMA3e
 __function__ DEPTH-LIMITED-SEARCH(_problem_,_limit_) __returns__ a solution, or failure/cutoff  
